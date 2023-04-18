@@ -1,0 +1,28 @@
+.degradado{
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+    background: linear-gradient(red 30%, yellow);
+}
+
+.imagen{
+    width: 25vh;
+    height: calc(25vh / 2);
+    background-image: url("https://picsum.photos/seed/picsum/800/600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cuadrado-circulo{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.circulo{
+    width: calc(500px /5 *3 *2);
+    height: calc(500px /5 *3 *2);
+    background-color: blue;
+    border-radius: 50%;
+}
