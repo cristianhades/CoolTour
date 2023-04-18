@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.square-wrapper{
+    width: 100%;
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.square{
+    height: 75px;
+    width: 75px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-navy{
+    background-color: navy;
+}
+
+.center-by-margin{
+    margin-left: calc(50% - 37.5px);
+}
+
+.bg-peru{
+    background-color: peru;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.ml-navy{
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-flex-start{
+    justify-content: flex-start;
+}
