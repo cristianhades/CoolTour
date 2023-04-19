@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid purple;
+    justify-content: space-between;
+  }
+  
+  nav img{
+    width: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border: 1px solid peru;
+  }
+  
+  nav ul li{
+    padding: 0 1rem;
+    
+  }
+  
+  nav ul li:hover{
+    background-color: gray;
+  }
+  
+  nav .icon-wrapper{
+    width: 30%;
+  }
