@@ -12,6 +12,7 @@
 
 .square{
     width: 75px;
+    height: 75px;
 }
 
 .bg-red{
@@ -134,4 +135,10 @@
 
 .align-baseline{
     align-items: baseline;
+}
+
+.layout-wrapper{
+    width: 100vw;
+    height: 50vh;
+    border: 2px solid lightseagreen;
 }
