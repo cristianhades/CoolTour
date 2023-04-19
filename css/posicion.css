@@ -12,6 +12,7 @@
     width: 75px;
     height: 75px;
 }
+/* COLORES */
 .bg-red{
     background-color: red;
 }
@@ -24,6 +25,10 @@
 .bg-peru{
     background-color: peru;
 }
+.bg-white{
+    background-color: white;
+}
+/* SEPARACION */
 .pt-1{
     padding-top: 1rem;
 }
@@ -48,6 +53,7 @@
 .pb-4{
     padding-bottom: 4rem;
 }
+/* MARGENES */
 .center-by-margin{
     margin-left: calc(50% - 37.5px);
 }
@@ -68,6 +74,7 @@
 .float-right{
     float: right;
 }
+/* FLEX */
 .d-flex{
     display: flex;
 }
@@ -104,6 +111,7 @@
 .align-baseline{
     align-items: baseline;
 }
+/* EXTRAS */
 .layout-wrapper{
     width: 95vw;
     height: 50vh;
@@ -111,7 +119,7 @@
     margin-bottom: 1rem;
 }
 .auxiliar-wrapper{
-    padding: 10px;
+    padding: 5px;
     border: 1px solid slategray;
     background-color: skyblue;
 }
@@ -136,4 +144,14 @@
 }
 #inverted .auxiliar-wrapper:nth-of-type(even){
     flex-direction: row-reverse;
+}
+.rectangulo-central{
+    width: calc(100% - 120px);
+}
+.rectangulo-grande{
+    width: calc(90vw/2);
+    height: 30vw;
+}
+.rectangulo{
+    width: 100vw;
 }
