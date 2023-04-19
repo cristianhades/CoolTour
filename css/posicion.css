@@ -141,4 +141,28 @@
     width: 100vw;
     height: 50vh;
     border: 2px solid lightseagreen;
+    margin-bottom: 1rem;
+}
+
+.auxiliar-wrapper{
+    padding: 10px;
+    border: 1px solid slategray;
+    background-color: skyblue;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.w100{
+    width: 100%;
+}
+
+.mx-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.item{
+    width: 50px;
 }
