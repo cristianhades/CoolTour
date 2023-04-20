@@ -26,6 +26,7 @@ body {
   transform: scale(1);
   transition: all 1s ease;
   color: hsl(232, 13%, 33%);
+  margin-bottom: 1rem;
 }
 .card .name, .card .price {
   font-weight: bold;

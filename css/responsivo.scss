@@ -14,7 +14,7 @@ body{
     background-color: $light-blue;
 }
 .card-wrapper{
-    width: calc(100% - ($base-measure * 2));
+    width: calc(100% - #{$base-measure * 2});
     margin-left: auto;
     margin-right: auto;
     border: 1px solid red;
@@ -31,6 +31,7 @@ body{
     transform: scale(1);
     transition: all 1s ease;
     color: $dark-grayish-blue;
+    margin-bottom: $base-measure;
     .name, .price{
         font-weight: bold;
         margin-bottom: 1rem;
