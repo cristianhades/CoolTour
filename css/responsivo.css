@@ -7,6 +7,13 @@ body {
   background-color: hsl(234, 15%, 74%);
 }
 
+.card-wrapper {
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
 .card {
   background: white;
   border-radius: 10px;
