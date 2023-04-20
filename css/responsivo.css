@@ -20,23 +20,40 @@ body {
 .card .name, .card .price {
   font-weight: bold;
   margin-bottom: 1rem;
+  color: hsl(232, 13%, 33%);
+}
+.card .price {
+  font-size: 3rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+.card .price span {
+  font-size: 1.5rem;
+}
+.card ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.card ul li {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid hsl(233, 13%, 49%);
+}
+.card ul li:first-of-type {
+  border-top: 1px solid hsl(233, 13%, 49%);
 }
 .card .btn {
   padding: 1rem;
   width: 100%;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   background-color: #ff0000;
   transition: background-color 1s ease;
-  /*background-image: $custom-gradient;
-  transition: width .5s linear;*/
-}
-.card .btn span {
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 .card .btn:hover {
-  /*background-image: $custom-gradient-inverted;*/
   cursor: pointer;
-  background-color: #00ff00;
-  /*width: 200px;*/
 }/*# sourceMappingURL=responsivo.css.map */
